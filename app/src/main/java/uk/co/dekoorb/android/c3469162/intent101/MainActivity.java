@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = DetailActivity.createIntent(MainActivity.this, mMessage.getText().toString());
                 startActivity(intent);
-                overridePendingTransition();
             }
         });
     }
